@@ -1,0 +1,87 @@
+body {
+    background-color: lightblue;
+    font-family: 'arial', Times, serif;
+    background-image: url("../images/TableauBackground.png");
+}
+
+.common {
+    /*background-color: #CCCCCC;
+    border: solid 2px white;*/
+    position: absolute;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 2px black;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.leftmenu {
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 64px;
+    padding-top: 100px;
+    font-size: 16px;
+}
+
+.mainbody {
+    top: 114px;
+    bottom: 64px;
+    left: 114px;
+    right: 114px;
+    z-index: 1;
+    padding-left: 150px;
+    font-size: 18px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.rightmenu {
+    top: 114px;
+    bottom: 64px;
+    right: 5px;
+    width: 100px;
+    padding-left: 5px;
+}
+
+.footer {
+    bottom: 5px;
+    height: 20px;
+    left: 5px;
+    right: 5px;
+    text-align: center;
+    position: fixed;
+    border-top: solid 2px black;
+    background-color: white;
+    z-index: 2;
+}
+
+.subheader {
+    float: right;
+    padding-right: 100px;
+    padding-top: 10px;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+}
+
+.bold {font-weight: bold;}
+
+.underline {text-decoration: underline;}
+
+.center {text-align: center;}
+
+.anchor {
+    color: blue;
+    font-size: 25px;
+    text-decoration: underline;
+}
